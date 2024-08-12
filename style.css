@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .logo{
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .creditos{
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+  }
+  
+  #button1{
+      background-color: rgb(124, 29, 248);
+      border: color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0));
+      padding: 5px;
+      border-radius: 10px;
+      font-size: 18px;
+      color: white;
+      position: absolute;
+      top: 82%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  #button2{
+    background-color: rgb(124, 29, 248);
+    border: color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0));
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 82%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #button3{
+    background-color: rgb(124, 29, 248);
+    border: color(srgb rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0));
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 82%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #button1:hover{
+      background-color: rgb(80, 21, 156);
+  }
+  
+  #button2:hover{
+      background-color: rgb(80, 21, 156);
+  }
+  
+  #button3:hover{
+    background-color: rgb(80, 21, 156);
+  }
+  
+  
+  #preloader{
+      background: #000000 url(file:///C:/Users/danil/Downloads/load2.gif) no-repeat center center;
+      background-size: 6%;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+  }
+  
+  /* Estilos para o preloader */
+  .loader-wrapper {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8); /* fundo semi-transparente */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999; /* garantir que o preloader apareça na frente de outros conteúdos */
+    }
+    
+    .loader {
+      border: 8px solid #f3f3f3; /* cinza claro */
+      border-top: 8px solid #3498db; /* azul */
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite; /* animação de rotação */
+    }
+    
+    /* Animação de rotação */
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Estilos para o conteúdo do site */
+    .content {
+      display: none; /* esconde o conteúdo do site até que o preloader seja removido */
+    }
+    
+    .loader-hidden .content {
+      display: block; /* exibe o conteúdo do site quando o preloader for removido */
+    }
+    
+  .credittext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    color: white;
+    position: absolute;
+      top: 98%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .texto{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
